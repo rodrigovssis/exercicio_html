@@ -8,13 +8,22 @@
 <body>
     <h1>Formulário</h1>
     <form>
-        <input type="text" placeholder="Nome Completo"/>
+        <label for="name"> Nome Completo </label>
+        <input type="text" placeholder="Nome Completo"/> 
         <br />
-        <label for="email">E-mail</label>
-        <input id="email" type="email" />
+        <label for="email"> E-mail </label>
+        <input type="email" placeholder="E-mail" id="email"/>
         <br />
-        <input type="tel" placeholder="Defina Uma Senha" /> <br />
-        <input type="tel" placeholder="Confirmar Senha" /> <br />
+        <label for="telefone"> Telefone Com DDD </label>
+        <input type="number" placeholder="Telefone"/>
+        <br />
+        <label for="senha"> Defina Uma Senha </label>
+        <input type="text" placeholder="Defina Uma Senha"/>
+        <br />
+        <label for="senha"> Confirme Sua Senha </label>
+        <input type="text" placeholder="Confirme Sua Senha"/>
+        <br />
+        <br />
         <button type="submit"> Cadastrar </button>
     </form>
 </body>
